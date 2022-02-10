@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>mycompany.com.myapplication.1.0</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <!-- Si se lia poner My Application 1.0 en name abajo -->
+    <customFilter name="Ayuda de GraphEdu">
+        <filterAttribute>myapp</filterAttribute>
+        <filterAttribute>1.0</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>myapp</filterAttribute>
+        <filterAttribute>1.0</filterAttribute>
+        <toc>
+            <section title="GraphEdu Help" ref="index.html">
+                <section title="Introducción" ref="index.html#chapter1"/>
+                <section title="Funciones" ref="index.html#chapter1"/>
+                <section title="Ayuda contextual" ref="index.html#chapter3"/>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="btn_graph"  ref="index.html#btn_graph"/>
+            <keyword name="btn_report" ref="index.html#btn_report"/>
+            <keyword id="whatthismode" ref="index.html#whatthismode"/>
+        </keywords>
+        <files>
+            <file>*.html</file>
+        </files>
+    </filterSection>
+</QtHelpProject>
